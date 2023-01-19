@@ -104,3 +104,12 @@
   margin-bottom: 1.2rem;
   letter-spacing: 0.5px;
 }
+
+strong {
+  font-weight: 500;
+}
+
+.green-chip {
+  background-color: yellowgreen;
+  border-radius: 8px;
+}
