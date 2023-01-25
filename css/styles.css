@@ -271,13 +271,19 @@ html {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  transition: all 0.3s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.25);
 }
 
 .meal-title {
   font-size: 2rem;
   color: var(--base-gray);
   font-weight: 600;
-  margin-bottom: 3.2rem;
+  margin: 1.6rem 0;
 }
 
 .meal-attributes {
@@ -305,9 +311,57 @@ html {
   font-size: 1.2rem;
   text-transform: uppercase;
   color: var(--dark-gray);
+  font-weight: 600;
+  border-radius: 8px;
 }
 
 .meal-icon {
   font-size: 2.4rem;
   color: var(--main-color);
+}
+
+.meal-content {
+  padding: 2.2rem 4.8rem;
+}
+
+.vegeterian-chip {
+  background-color: yellowgreen;
+}
+
+.vegan-chip {
+  background-color: green;
+}
+.paleo-chip {
+  background-color: coral;
+}
+
+.meal-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* DIET LIST */
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.list-icon {
+  font-size: 3rem;
+  color: var(--main-color);
+}
+
+.all-recipes {
+  font-size: 1.8rem;
 }
