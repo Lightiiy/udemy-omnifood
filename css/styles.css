@@ -343,25 +343,6 @@ html {
 
 /* DIET LIST */
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-}
-
-.list-icon {
-  font-size: 3rem;
-  color: var(--main-color);
-}
-
 .all-recipes {
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -421,4 +402,76 @@ html {
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/* PRICING SECTION */
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
+
+.plan-name {
+  color: var(--shadow-1);
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 1.6rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: var(--base-gray);
+  margin-bottom: 1.6rem;
+}
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: var(--base-gray);
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 3.2rem;
+}
+
+.pricing-plan {
+  padding: 4.8rem;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.pricing-plan-starter {
+  justify-self: end;
+  border: 2px solid var(--tint-1);
+  padding: 4.6rem;
+}
+
+.pricing-plan-complete {
+  background-color: var(--tint-1);
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan-complete:after {
+  content: 'Best value!';
+  position: absolute;
+  top: 6%;
+  right: -10%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: yellow;
+  padding: 0.8rem 4rem;
+  transform: rotate(45deg);
 }
