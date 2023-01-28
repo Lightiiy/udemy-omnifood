@@ -1,9 +1,14 @@
 :root {
   --main-color: #e67e22;
+  --main-color-35: rgba(230, 125, 34, 0.35);
   --tint-1: #fdf2e9;
   --tint-2: #fae5d3;
+  --tint-3: #eb984e;
+  --tint-3-35: rgba(235, 151, 78, 0.35);
   --shadow-1: #cf711f;
+  --shadow-2: #2e1907;
   --base-gray: #555;
+  --base-gray-35: rgba(85, 85, 85, 0.35);
   --dark-gray: #333;
   --light-gray: #ddd;
 }
