@@ -522,7 +522,7 @@ html {
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: var(--main-color);
-  box-shadow: 0 3.2rem 4.8rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3.2rem 1.5rem rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
 
@@ -592,7 +592,84 @@ html {
   box-shadow: 0 0 0 0.8rem var(--base-gray-35);
 }
 
-.cta-form select {
+/* FOOTER */
+
+.footer {
+  padding: 7rem 0 12rem 0;
+  margin-top: 5rem;
+  box-shadow: 0 -1rem 1rem rgba(0, 0, 0, 0.1);
 }
-.cta-form button {
+.grid-footer {
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+.address-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-icon {
+  font-size: 3.2rem;
+  color: var(--base-gray);
+}
+
+.copyright {
+  color: var(--base-gray);
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-top: auto;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  margin: auto 0;
+  font-size: 1.6rem;
+  color: var(--base-gray);
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--dark-gray);
 }
