@@ -64,9 +64,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--base-gray);
+  overflow-x: none;
 }
 html {
   font-size: 62.5%;
+  overflow-x: none;
 }
 
 /* HEADER */
@@ -79,6 +81,15 @@ html {
 
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
+}
+
+.nav-open .mobile-nav-icon[name='close-outline'] {
+  display: block;
+}
+
+.nav-open .mobile-nav-icon[name='menu-outline'] {
+  display: none;
 }
 
 .logo {
@@ -119,6 +130,23 @@ html {
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: var(--shadow-1);
+}
+
+.btn-mobile-nav {
+  display: none;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.mobile-nav-icon {
+  font-size: 4.8rem;
+  color: var(--base-gray);
+}
+
+.mobile-nav-icon[name='close-outline'] {
+  display: none;
 }
 
 /* HERO */
