@@ -84,11 +84,11 @@ html {
   position: relative;
 }
 
-.nav-open .mobile-nav-icon[name='close-outline'] {
+.nav-open .btn-mobile-nav:has(.mobile-nav-icon[name='close-outline']) {
   display: block;
 }
 
-.nav-open .mobile-nav-icon[name='menu-outline'] {
+.nav-open .btn-mobile-nav:has(.mobile-nav-icon[name='menu-outline']) {
   display: none;
 }
 
@@ -145,7 +145,7 @@ html {
   color: var(--base-gray);
 }
 
-.mobile-nav-icon[name='close-outline'] {
+.btn-mobile-nav:has(.mobile-nav-icon[name='close-outline']) {
   display: none;
 }
 
