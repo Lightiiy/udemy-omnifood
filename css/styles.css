@@ -147,8 +147,8 @@ html {
 
 .btn-mobile-nav:has(.mobile-nav-icon[name='close-outline']) {
   display: none;
+  z-index: 999;
 }
-
 /* HERO */
 
 .section-hero {
