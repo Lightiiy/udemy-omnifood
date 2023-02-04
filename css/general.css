@@ -181,3 +181,7 @@ strong {
   outline: none;
   box-shadow: 0 0 0 0.8rem var(--tint-3-35);
 }
+
+.nav-open {
+  overflow-y: none;
+}
