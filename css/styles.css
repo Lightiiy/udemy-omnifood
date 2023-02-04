@@ -94,6 +94,10 @@ html {
   display: none;
 }
 
+.btn-mobile-nav {
+  display: none;
+}
+
 .logo {
   height: 2.2rem;
 }
